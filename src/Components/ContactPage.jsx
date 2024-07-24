@@ -11,7 +11,7 @@ const ContactPage = () => {
                     <h1 className="text-2xl font-semibold lg:text-3xl">Connect with us!</h1>
 
                     <p className="max-w-xl mt-6">
-                    Welcome to Paryatanam Bharati's contact page! We are here to assist you with any inquiries or support you may need. Feel free to reach out to us through the provided contact details, and our dedicated team will get back to you promptly.
+                    Welcome to Paryatanam Bharti's contact page! We are here to assist you with any inquiries or support you may need. Feel free to reach out to us through the provided contact details, and our dedicated team will get back to you promptly.
                     </p>
 
                     <button className="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
