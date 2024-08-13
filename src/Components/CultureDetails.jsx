@@ -47,37 +47,72 @@ const CultureDetails = () => {
             </div>  
       <div className="lg:min-w-96 max-w-full overflow-hidden">
         <h3 className="mt-7 font-medium text-3xl flex justify-center">Categories</h3>
-        <div className="my-11 flex flex-col items-center gap-7 overflow-hidden">
-          <div className="relative group rounded-lg overflow-hidden max-w-80 h-28 ease-in-out duration-1000">
-            <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-50 absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">Bharatanatyam</div>
-            <img className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000" src={bharatanatyam}/>
+        <div className="my-11 grid grid-cols-1 sm:grid-cols-2 place-items-center lg:flex lg:flex-col lg:items-center gap-7 overflow-hidden">
+            <div className="relative group rounded-lg overflow-hidden max-w-96 sm:max-w-none sm:col-span-2 lg:max-w-80 h-28 sm:h-56 lg:h-28 ease-in-out duration-1000">
+              <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-[1] absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">
+                Bharatanatyam
+              </div>
+              <img
+                className="aspect-[16/9] object-cover object-top sm:object-[0_-65px] lg:object-top group-hover:scale-150 ease-in-out duration-1000"
+                src={bharatanatyam}
+              />
+            </div>
+            <div className="relative group rounded-lg overflow-hidden max-w-96 sm:w-full sm:max-w-none lg:max-w-80 h-28 ease-in-out duration-1000">
+              <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-[1] absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">
+                Kathak
+              </div>
+              <img
+                className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000"
+                src={kathak}
+              />
+            </div>
+            <div className="relative group rounded-lg overflow-hidden max-w-96 sm:w-full sm:max-w-none lg:max-w-80 h-28 ease-in-out duration-1000">
+              <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-[1] absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">
+                Mohiniyattam
+              </div>
+              <img
+                className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000"
+                src={mohiniyattam}
+              />
+            </div>
+            <div className="relative group rounded-lg overflow-hidden max-w-96 sm:w-full sm:max-w-none lg:max-w-80 sm:row-span-2 h-28 sm:h-full lg:h-28 ease-in-out duration-1000">
+              <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-[1] absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">
+                Kuchipudi
+              </div>
+              <img
+                className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000"
+                src={kuchipudi}
+              />
+            </div>
+            <div className="relative group rounded-lg overflow-hidden max-w-96 sm:w-full sm:max-w-none lg:max-w-80 sm:row-span-2 h-28 sm:h-full lg:h-28 ease-in-out duration-1000">
+              <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-[1] absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">
+                Manipuri
+              </div>
+              <img
+                className="aspect-[16/9] object-cover sm:h-full lg:h-auto group-hover:scale-150 ease-in-out duration-1000"
+                src={manipuri}
+              />
+            </div>
+            <div className="relative group rounded-lg overflow-hidden max-w-96 sm:w-full sm:max-w-none lg:max-w-80 h-28 ease-in-out duration-1000">
+              <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-[1] absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">
+                Sattriya
+              </div>
+              <img
+                className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000"
+                src={sattriya}
+              />
+            </div>
+            <div className="relative group rounded-lg overflow-hidden max-w-96 sm:w-full sm:max-w-none lg:max-w-80 h-28 ease-in-out duration-1000">
+              <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-[1] absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">
+                Kathakali
+              </div>
+              <img
+                className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000"
+                src={kathakali}
+              />
+            </div>
           </div>
-          <div className="relative group rounded-lg overflow-hidden max-w-80 h-28 ease-in-out duration-1000">
-            <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-50 absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">Kathak</div>
-            <img className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000" src={kathak}/>
-          </div>
-          <div className="relative group rounded-lg overflow-hidden max-w-80 h-28 ease-in-out duration-1000">
-            <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-50 absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">Mohiniyattam</div>
-            <img className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000" src={mohiniyattam}/>
-          </div>
-          <div className="relative group rounded-lg overflow-hidden max-w-80 h-28 ease-in-out duration-1000">
-            <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-50 absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">Kuchipudi</div>
-            <img className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000" src={kuchipudi}/>
-          </div>
-          <div className="relative group rounded-lg overflow-hidden max-w-80 h-28 ease-in-out duration-1000">
-            <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-50 absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">Manipuri</div>
-            <img className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000" src={manipuri}/>
-          </div>
-          <div className="relative group rounded-lg overflow-hidden max-w-80 h-28 ease-in-out duration-1000">
-            <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-50 absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">Sattriya</div>
-            <img className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000" src={sattriya}/>
-          </div>
-          <div className="relative group rounded-lg overflow-hidden max-w-80 h-28 ease-in-out duration-1000">
-            <div className="flex items-center justify-center bg-black/20 group-hover:bg-black/60 w-full h-full z-50 absolute ease-in-out duration-1000 text-white text-center text-2xl font-semibold">Kathakali</div>
-            <img className="aspect-[16/9] object-cover group-hover:scale-150 ease-in-out duration-1000" src={kathakali}/>
-          </div>
-        </div>  
-      </div>
+        </div>
     </section>
   )
 }
